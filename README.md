@@ -2,17 +2,19 @@
 
 This repo saves useful tooling configurations for Salesforce development.
 
+It is meant to save commonly used configurations in all Salesforce project.
+
 You are warmly welcomed to send pull request.
 
 # Content
 
 ## dx-skeleton folder
 
-With several default configuration built-in when initiate scratch-org.
+When using scratch-org and DX for development, I'd recommend to start with these default configurations when initiate scratch-org.
 
 1. define configurations in `project-scratch-def.json`, such as using `enterprise edition`, locale as `US` (language in English), enable community and API, disable browser cache.
-2. use [editorconfig](http://editorconfig.org/) to support consistant cross platform file saving format.
-3. use `.gitignore` to ignore unnessariy file types for git
+2. use [editorconfig](http://editorconfig.org/) to support consistant cross platform (Linux, MacOS and Windows) file saving format.
+3. use `.gitignore` to ignore unnecessary file types for git
 
 ## pmd-rules folder
 
